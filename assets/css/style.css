@@ -297,6 +297,9 @@ footer {
     .shiba-projects {
         opacity: 0;
     }
+    .video-background {
+        opacity: 0;
+    }
 }
 
 @media (min-width: 1656px) {
