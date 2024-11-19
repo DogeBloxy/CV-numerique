@@ -158,7 +158,7 @@ ul li {
 }
 
 .skill {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .skill span {
@@ -166,42 +166,23 @@ ul li {
     color: #dddddd;
 }
 
-.progress-bar {
-    width: 100%;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 10px;
-    margin-top: 5px;
-}
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-gap: 5px;
+    color: #444;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 100%;
+    width: 90%;
+    text-align: center;
+  }
 
-.progress-html {
-    height: 100%;
-    background: linear-gradient(90deg, rgba(241, 101, 40, 1) 40%, rgba(36, 101, 241, 1) 60%);
-    /* couleur de la barre */
-    border-radius: 5px;
-}
-
-.progress-js {
-    height: 100%;
-    background-color: #F7E018;
-    /* couleur de la barre */
-    border-radius: 5px;
-}
-
-.progress-php {
-    height: 100%;
-    background-color: #787CB4;
-    /* couleur de la barre */
-    border-radius: 5px;
-}
-
-.progress-sql {
-    height: 100%;
-    background: linear-gradient(90deg, rgba(0, 97, 138, 1) 40%, rgba(228, 142, 0, 1) 60%);
-    /* couleur de la barre */
-    border-radius: 5px;
-}
 
 /* Section projets */
 #projects {
