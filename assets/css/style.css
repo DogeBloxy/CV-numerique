@@ -261,25 +261,31 @@ footer {
 @media (min-width: 1px) and (max-width: 1655px) {
     .shiba-wow {
         opacity: 0;
+        display: none;
     }
 
     .shiba-contact {
         opacity: 0;
+        display: none;
     }
 
     .shiba-profession {
         opacity: 0;
+        display: none;
     }
 
     .shiba-skills {
         opacity: 0;
+        display: none;
     }
 
     .shiba-projects {
         opacity: 0;
+        display: none;
     }
     .video-background {
         opacity: 0;
+        display: none;
     }
 }
 
