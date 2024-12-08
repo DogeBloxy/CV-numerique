@@ -77,9 +77,9 @@ a:hover {
 }
 
 .profile-picture {
-    width: 120px;
+    width: 180px;
     /* Taille de la photo */
-    height: 120px;
+    height: 180px;
     border-radius: 50%;
     /* Pour un effet circulaire */
     margin-bottom: 10px;
@@ -89,39 +89,41 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: #000000 solid 2px;
+    background-color: #dddddd;
 }
 
 .shiba-wow {
     position: absolute;
-    left: 180px;
+    left: 170px;
 }
 
 .shiba-contact {
     position: absolute;
     left: 160px;
     width: 15%;
-    top: 370px;
+    top: 430px;
 }
 
 .shiba-profession {
     position: absolute;
     left: 175px;
     width: 15%;
-    top: 680px;
+    top: 740px;
 }
 
 .shiba-skills {
     position: absolute;
     left: 175px;
     width: 15%;
-    top: 1070px;
+    top: 1120px;
 }
 
 .shiba-projects {
     position: absolute;
     left: 175px;
     width: 13%;
-    top: 1594px;
+    top: 1654px;
 }
 
 
@@ -144,7 +146,7 @@ a:hover {
     margin-bottom: 5px;
 }
 
-/* Compétences et langues */
+/* Langues */
 ul {
     list-style-type: none;
 }
@@ -291,6 +293,6 @@ footer {
 
 @media (min-width: 1656px) {
     .shiba-wow {
-        top: 96px;
+        top: 156px;
     }
 }
