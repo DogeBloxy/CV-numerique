@@ -101,28 +101,28 @@ a:hover {
     position: absolute;
     left: 160px;
     width: 15%;
-    top: 430px;
+    top: 455px;
 }
 
 .shiba-profession {
     position: absolute;
     left: 175px;
     width: 15%;
-    top: 740px;
+    top: 790px;
 }
 
 .shiba-skills {
     position: absolute;
     left: 175px;
     width: 15%;
-    top: 1120px;
+    top: 1205px;
 }
 
 .shiba-projects {
     position: absolute;
     left: 175px;
     width: 13%;
-    top: 1801px;
+    top: 1878px;
 }
 
 
@@ -137,6 +137,13 @@ a:hover {
     font-size: 1.2em;
 }
 
+
+.job h4,
+.education h4 {
+    color: #dddddd;
+    font-size: 1em;
+}
+
 .job span,
 .education span {
     display: block;
@@ -145,12 +152,17 @@ a:hover {
     margin-bottom: 5px;
 }
 
+/* Expériences */
+.experience-li {
+    margin-left: 15px;
+}
+
 /* Langues */
-ul {
+.languages-ul {
     list-style-type: none;
 }
 
-ul li {
+.languages-li {
     background-color: #e4e4e4;
     color: #000000;
     padding: 8px;
@@ -292,6 +304,6 @@ footer {
 
 @media (min-width: 1656px) {
     .shiba-wow {
-        top: 156px;
+        top: 181px;
     }
 }
