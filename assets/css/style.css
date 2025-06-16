@@ -115,14 +115,14 @@ a:hover {
     position: absolute;
     left: 175px;
     width: 15%;
-    top: 1290px;
+    top: 1460px;
 }
 
 .shiba-projects {
     position: absolute;
     left: 175px;
     width: 13%;
-    top: 2056px;
+    top: 2227px;
 }
 
 
@@ -231,6 +231,7 @@ a:hover {
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
+    background-color: #000000;
 }
 
 .project-item:hover img {
