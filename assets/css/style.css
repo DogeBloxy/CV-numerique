@@ -71,6 +71,10 @@ a {
     color: #fff;
 }
 
+.link-cv {
+    font-size: 50px;
+}
+
 a:hover {
     transition: 0.5s;
     color: #00a2ff;
